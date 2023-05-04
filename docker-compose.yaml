@@ -6,6 +6,6 @@ services:
       - "65000:80"
     volumes:
       - "./conf/nginx:/etc/nginx"
-
+    restart: always
 
 
